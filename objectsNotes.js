@@ -58,35 +58,35 @@ let dog = {
 }
 console.log(dog);
 
-let Beford = {
+let beford = {
     height: '7 ft',
     age: 17,
     weight: '167 lbs',
     Ethnicity: 'Jamaican/American',
 }
 
-let Charles = {
+let charles = {
     height: '5"8',
     age: 24,
     weight: '135 lbs',
     Ethnicity: 'British/Scotish',
 }
 
-let Jeffery = {
+let jeffery = {
     height: '5"5',
     age: 22,
     weight: '184 lbs',
     Ethnicity: 'American',
 }
 
-let Tigger = {
+let tigger = {
     height: '7"2',
     age: 15,
     weight: '159 lbs',
     Ethnicity: 'Korean',
 }
 
-let Olash = {
+let olash = {
     height: '4"3',
     age: 30,
     weight: '120 lbs',
