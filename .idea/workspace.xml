@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63984bd5-252f-4f60-bc13-5b2f64f23b73" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/comboMenus.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magic8.js" beforeDir="false" afterPath="$PROJECT_DIR$/magic8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/combomenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/combomenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/combomenu.js" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +47,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/araysNotes2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-347">
-              <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+            <state relative-caret-position="-7">
+              <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -56,26 +56,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chtrCreator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/magic8.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/combomenu.js">
+        <entry file="file://$PROJECT_DIR$/magic8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/comboMenus.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,8 +105,9 @@
         <option value="$PROJECT_DIR$/madLibs.js" />
         <option value="$PROJECT_DIR$/chtrCreator.js" />
         <option value="$PROJECT_DIR$/objectsNotes.js" />
-        <option value="$PROJECT_DIR$/node_modules/combomenu.js" />
         <option value="$PROJECT_DIR$/magic8.js" />
+        <option value="$PROJECT_DIR$/node_modules/combomenu.js" />
+        <option value="$PROJECT_DIR$/comboMenus.js" />
       </list>
     </option>
   </component>
@@ -128,11 +129,6 @@
             <path>
               <item name="chapter3notes" type="b2602c69:ProjectViewProjectNode" />
               <item name="chapter3notes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="chapter3notes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="chapter3notes" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -199,7 +195,7 @@
       <workItem from="1682108729565" duration="2669000" />
       <workItem from="1682369963531" duration="1000" />
       <workItem from="1682539256005" duration="3738000" />
-      <workItem from="1682713511463" duration="1414000" />
+      <workItem from="1682713511463" duration="3157000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1678827590241</created>
@@ -264,14 +260,22 @@
       <option name="project" value="LOCAL" />
       <updated>1682540703132</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="8ball">
+      <created>1682715135000</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682715135000</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39253000" />
+    <option name="totallyTimeSpent" value="40996000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="8ball" />
+    <option name="LAST_COMMIT_MESSAGE" value="8ball" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/functions1.js">
@@ -364,29 +369,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/araysNotes2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-347">
-          <caret column="27" lean-forward="true" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="-7">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chtrCreator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="42" />
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/combomenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="63" lean-forward="true" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/magic8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comboMenus.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
