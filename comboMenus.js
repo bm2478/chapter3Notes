@@ -23,10 +23,10 @@ if (sandwich == "tofu"){
     ordered.push("tofu sandwich")
 
 }
-let drink = readLine.question("Would you want a beverage with that?: ")
+let drink = readLine.question("Would you want a beverage with that?: ");
 
 if (drink == "yes"){
-    let drinksize = readLine.question("A small ($1.00), medium ($1.75), or a large ($2.25)? ")
+    let drinksize = readLine.question("A small ($1.00), medium ($1.75), or a large ($2.25)?: ");
     if (drinksize == "small"){
         orderdrink = 1
         totalprice.push(1.00)
@@ -54,15 +54,15 @@ if (drink == "no"){
 
 let fries = readLine.question("Would you like french fries?: ")
 if (fries == "yes" || fries == "sure") {
-    let friesSize = readLine.question("A small ($1.00), medium ($1.50) or a large ($2.00)? ")
+    let friesSize = readLine.question("A small ($1.00), medium ($1.50) or a large ($2.00)?: ")
     console.log(`So you will also be having ${friesSize} fries. `)
 
-    if (friesSize == "small") {
-        let megafries = readLine.question("Would you also like to MEGA-SIZE your small fries?: ")
+    if (friesSize == "large") {
+        let megafries = readLine.question("Would you also like to season your small fries?: ")
         if (megafries == "yes") {
             orderfries = 1
             totalprice.push(2.00)
-            ordered.push(" mega-size fries")
+            ordered.push(" seasoned fries")
         }
         if (megafries == "no"){
             orderfries = 1
@@ -94,8 +94,8 @@ if (fries == "no"){
     console.log(`No? Ok.`)
 }
 {
-    let ketchup = readLine.question("How much ketchup packets would you like? ($0.25 each): ")
-    totalprice.push(ketchup * 0.25)
+    let ketchup = readLine.question("How much ketchup packets would you like? ($0.25 each): ");
+    totalprice.push(ketchup * 0.25);
     ordered.push(` and ${ketchup} ketchup packets.`)
 }
 
@@ -111,5 +111,5 @@ if (ordersandwich + orderdrink + orderfries === 3) {
 totalprice = totalprice + (totalprice * 0.07);
 totalprice = totalprice.toFixed(2);
 
-console.log(`Your order is a ${ordered}`)
-console.log(`Your total is then, $${totalprice}!`)
+console.log(`Your order is a ${ordered}`);
+console.log(`Your total is then, $${totalprice}!`);
