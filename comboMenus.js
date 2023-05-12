@@ -58,7 +58,7 @@ if (fries == "yes" || fries == "sure") {
     console.log(`So you will also be having ${friesSize} fries. `)
 
     if (friesSize == "large") {
-        let megafries = readLine.question("Would you also like to season your small fries?: ")
+        let megafries = readLine.question("Would you also like to season your large fries?: ")
         if (megafries == "yes") {
             orderfries = 1
             totalprice.push(2.00)
